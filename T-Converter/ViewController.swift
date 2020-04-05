@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var celniusLabel: UILabel!
+    @IBOutlet weak var fahrenheitLabel: UILabel!
+    @IBOutlet weak var slider: UISlider!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func sliderChenged(_ sender: UISlider) {
+    }
+    
 }
 
